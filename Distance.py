@@ -2,7 +2,7 @@ import pandas as pd
 import geopy.distance
 
 import sys
-sys.path.insert(0, 'C:\\1. Patryk\\Data science\\repositories\\ryanair-flight-search')
+sys.path.insert(0, 'C:\\1. Patryk\\Data science\\repos\\ryanair-flight-search')
 import Airports
 
 def nearby_airports():

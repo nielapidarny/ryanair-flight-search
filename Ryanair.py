@@ -5,7 +5,7 @@ from operator import itemgetter
 import os
 
 import sys
-sys.path.insert(0, 'C:\\1. Patryk\\Data science\\repositories\\ryanair-flight-search')
+sys.path.insert(0, 'C:\\1. Patryk\\Data science\\repos\\ryanair-flight-search')
 import Airports
 import Distance
 
@@ -76,7 +76,7 @@ def change_parameters():
         elif choice == "5":
             IATA_departure = input("Flight departure location, three-letter IATA airport code: ")
         elif choice == "6":
-        	iata = input('Do you want to change destination (press 1) or erase it at all, so that many locations are searched? (press 2): ')
+        	iata = input('Do you want to change destination (press 1) or erase it completely, so that many locations are searched? (press 2): ')
         	if iata == "1":
         		IATA_arrival = input("Flight arrival location, three-letter IATA airport code: ")
         	if iata == "2":
@@ -193,7 +193,8 @@ def clean_results(ways):
         lowest_fares['price_total'] = lowest_fares['price_main'] + lowest_fares['price_frac']/100
         flights_clean.append(copy.copy(lowest_fares)) # nasza zbiorcza lista wzbogaca sie o kolejny slownik-lotnisko, ALE UWAGA! Musi byc kopia, bo inaczej dane sie nadpisuja
     
-    return flights_clean
+    # itemgetter: sort the list of dictionaries by the price
+    return sorted(flights_clean, key=itemgetter('price_main'), reverse=False) 
 
 def print_results(ways, flights_clean):
     ''' Printing out to the screen the lowest fares sorted by price '''
@@ -205,9 +206,7 @@ def print_results(ways, flights_clean):
     if ways == 2:
         print(" - Two-way trip: " + str(len(flights_clean)) + " offer(s) \n\n")
     
-    # itemgetter: sort the list of dictionaries by the price
-    flights_clean = sorted(flights_clean, key=itemgetter('price_main'), reverse=False) 
-
+    
     for flight in flights_clean:
         print (flight['airport'], end=": " )
         print (str(flight['price_total']) + ' ' + flight['currency'], end='')
@@ -242,22 +241,14 @@ def txt_results(ways, flights_clean):
                 f.write(str(flight['date']) + " - ")
                 f.write(str(flight['date_back']) + "\n\n")
 
-def one_way():
-    ''' Getting clean results for one-way flights'''
+def n_way(ways):
+    ''' Getting clean results for one-way or two-way flights and printing them (to the screen + into txt file) '''
 
-    flights_clean = clean_results(1)
-    print_results(1, flights_clean)
-    txt_results(1, flights_clean)
-    # send_mail(toaddr="patryk.wawrzyniak92@gmail.com", subject="Wyszukiwarka lotow Ryanair", body="Patrz: załącznik", att_path="C:\\1. Patryk\\Data science\\Python\\Kody\\Raporty", att_filename="Ryanair.txt")
+    flights_clean = clean_results(ways)
+    print_results(ways, flights_clean)
+    txt_results(ways, flights_clean)
+    # send_mail(toaddr="XYZ@gmail.com", subject="Wyszukiwarka lotow Ryanair", body="Patrz: załącznik", att_path="C:\\1. Patryk\\Data science\\Python\\Kody\\Raporty", att_filename="Ryanair.txt")
 
-def two_way():
-    ''' Getting clean results for two-way flights'''
-    
-    flights_clean = clean_results(2)
-    print_results(2, flights_clean)
-    txt_results(2, flights_clean)
-    # send_mail(toaddr="patryk.wawrzyniak92@gmail.com", subject="Wyszukiwarka lotow Ryanair", body="Patrz: załącznik", att_path="C:\\1. Patryk\\Data science\\Python\\Kody\\Raporty", att_filename="Ryanair.txt")
-        
 def menu():
     ''' Printing out the menu on the screen'''
 
@@ -291,9 +282,9 @@ def menu():
         elif choice == '4':
             Distance.nearby_airports()
         elif choice == "5":
-            one_way()
+            n_way(ways=1)
         elif choice == "6":
-            two_way()
+            n_way(ways=2)
         else:
             print(" !!!!!!!!! Wrong option !!!!!!!!! ")
 
