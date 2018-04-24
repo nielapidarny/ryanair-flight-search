@@ -1,0 +1,85 @@
+{"total":47, 
+	"fares":
+		[
+
+		{
+
+		"outbound":
+			{
+			
+			"departureAirport":
+								{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} ,
+			"arrivalAirport":
+			 					{"iataCode":"TSR", "name":"Timisoara", "seoName":"timisoara", "countryName":"Rumunia"} ,
+			"departureDate":
+								"2017-04-16T17:50:00", 
+			"arrivalDate":
+								"2017-04-16T20:35:00", 
+			"price":
+			  					{"value":4.99, "valueMainUnit":"4", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"}
+			},
+
+		"inbound":
+			{
+
+			"departureAirport":
+								{"iataCode":"TSR", "name":"Timisoara", "seoName":"timisoara", "countryName":"Rumunia"},
+			"arrivalAirport":
+								{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} ,
+			"departureDate":
+								"2017-04-26T21:05:00", 
+			"arrivalDate":
+								"2017-04-26T21:50:00", 
+			"price":
+								{"value":4.99, "valueMainUnit":"4", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} 
+			},
+
+		"summary":
+		 	{
+
+		 	"price":
+		 						{"value":9.98, "valueMainUnit":"9", "valueFractionalUnit":"98", "currencyCode":"EUR", "currencySymbol":"€"} ,
+								"newRoute":false
+			} 
+		  
+		 },
+
+
+		{"outbound":
+		  	{"departureAirport":
+		 		 				{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} ,
+		   	"arrivalAirport":
+		   						{"iataCode":"RZE", "name":"Rzeszów", "seoName":"rzeszow", "countryName":"Polska"},
+		    "departureDate":
+		   						"2017-04-24T07:15:00",
+		    "arrivalDate":
+		    					"2017-04-24T08:35:00",
+		     "price":
+		     					{"value":4.99, "valueMainUnit":"4", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"}
+		     },
+
+		"inbound":
+		     {"departureAirport":
+		     					{"iataCode":"RZE", "name":"Rzeszów", "seoName":"rzeszow", "countryName":"Polska"},
+		     "arrivalAirport":
+		     					{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} ,
+		      "departureDate":
+		      					"2017-05-15T09:00:00", 
+		      "arrivalDate":
+		      					"2017-05-15T10:20:00", 
+		      "price":
+		      					{"value":7.96, "valueMainUnit":"7", "valueFractionalUnit":"96", "currencyCode":"EUR", "currencySymbol":"€"} 
+		      }, 
+		      
+		"summary":
+		      {"price":
+		      					{"value":12.95, "valueMainUnit":"12", "valueFractionalUnit":"95", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false}
+		      },
+
+
+
+		   {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"SNN", "name":"Shannon", "seoName":"shannon", "countryName":"Irlandia"} , "departureDate":"2017-04-01T14:55:00", "arrivalDate":"2017-04-01T16:40:00", "price":{"value":9.99, "valueMainUnit":"9", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"SNN", "name":"Shannon", "seoName":"shannon", "countryName":"Irlandia"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-04-04T10:50:00", "arrivalDate":"2017-04-04T14:30:00", "price":{"value":9.99, "valueMainUnit":"9", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":19.98, "valueMainUnit":"19", "valueFractionalUnit":"98", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"VRN", "name":"Werona", "seoName":"werona", "countryName":"Włochy"} , "departureDate":"2017-04-23T07:05:00", "arrivalDate":"2017-04-23T08:45:00", "price":{"value":9.99, "valueMainUnit":"9", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"VRN", "name":"Werona", "seoName":"werona", "countryName":"Włochy"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-06-14T11:35:00", "arrivalDate":"2017-06-14T13:15:00", "price":{"value":12.74, "valueMainUnit":"12", "valueFractionalUnit":"74", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":22.73, "valueMainUnit":"22", "valueFractionalUnit":"73", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"BTS", "name":"Bratysława", "seoName":"bratyslawa", "countryName":"Słowacja"} , "departureDate":"2017-04-25T16:05:00", "arrivalDate":"2017-04-25T17:20:00", "price":{"value":9.99, "valueMainUnit":"9", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"BTS", "name":"Bratysława", "seoName":"bratyslawa", "countryName":"Słowacja"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-05-13T14:25:00", "arrivalDate":"2017-05-13T15:40:00", "price":{"value":12.99, "valueMainUnit":"12", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":22.98, "valueMainUnit":"22", "valueFractionalUnit":"98", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"INI", "name":"Nis", "seoName":"nis", "countryName":"Serbia"} , "departureDate":"2017-06-11T13:05:00", "arrivalDate":"2017-06-11T15:10:00", "price":{"value":9.99, "valueMainUnit":"9", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"INI", "name":"Nis", "seoName":"nis", "countryName":"Serbia"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-07-06T14:55:00", "arrivalDate":"2017-07-06T17:00:00", "price":{"value":12.99, "valueMainUnit":"12", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":22.98, "valueMainUnit":"22", "valueFractionalUnit":"98", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"BGY", "name":"Mediolan-Bergamo", "seoName":"mediolan-bergamo", "countryName":"Włochy"} , "departureDate":"2017-05-31T07:05:00", "arrivalDate":"2017-05-31T08:50:00", "price":{"value":11.99, "valueMainUnit":"11", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"BGY", "name":"Mediolan-Bergamo", "seoName":"mediolan-bergamo", "countryName":"Włochy"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-06-27T09:15:00", "arrivalDate":"2017-06-27T10:55:00", "price":{"value":11.75, "valueMainUnit":"11", "valueFractionalUnit":"75", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":23.74, "valueMainUnit":"23", "valueFractionalUnit":"74", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"STN", "name":"Londyn-Stansted", "seoName":"londyn-stansted", "countryName":"Wielka Brytania"} , "departureDate":"2017-04-01T22:25:00", "arrivalDate":"2017-04-01T23:25:00", "price":{"value":9.99, "valueMainUnit":"9", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"STN", "name":"Londyn-Stansted", "seoName":"londyn-stansted", "countryName":"Wielka Brytania"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-04-24T19:00:00", "arrivalDate":"2017-04-24T22:00:00", "price":{"value":15.03, "valueMainUnit":"15", "valueFractionalUnit":"03", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":25.02, "valueMainUnit":"25", "valueFractionalUnit":"02", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"TLS", "name":"Toulouse", "seoName":"toulouse", "countryName":"Francja"} , "departureDate":"2017-06-19T17:25:00", "arrivalDate":"2017-06-19T19:40:00", "price":{"value":12.99, "valueMainUnit":"12", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"TLS", "name":"Toulouse", "seoName":"toulouse", "countryName":"Francja"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-06-21T14:05:00", "arrivalDate":"2017-06-21T16:20:00", "price":{"value":12.74, "valueMainUnit":"12", "valueFractionalUnit":"74", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":25.73, "valueMainUnit":"25", "valueFractionalUnit":"73", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"BRU", "name":"Brussels Zaventem", "seoName":"brussels-zaventem", "countryName":"Belgia"} , "departureDate":"2017-04-01T06:20:00", "arrivalDate":"2017-04-01T07:50:00", "price":{"value":12.99, "valueMainUnit":"12", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"BRU", "name":"Brussels Zaventem", "seoName":"brussels-zaventem", "countryName":"Belgia"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-04-19T21:25:00", "arrivalDate":"2017-04-19T22:50:00", "price":{"value":12.99, "valueMainUnit":"12", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":25.98, "valueMainUnit":"25", "valueFractionalUnit":"98", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"OTP", "name":"Bucharest (Otopeni)", "seoName":"Bucharest-Otopeni", "countryName":"Rumunia"} , "departureDate":"2017-04-18T07:25:00", "arrivalDate":"2017-04-18T10:35:00", "price":{"value":12.99, "valueMainUnit":"12", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"OTP", "name":"Bucharest (Otopeni)", "seoName":"Bucharest-Otopeni", "countryName":"Rumunia"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-04-26T20:15:00", "arrivalDate":"2017-04-26T21:25:00", "price":{"value":12.99, "valueMainUnit":"12", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":25.98, "valueMainUnit":"25", "valueFractionalUnit":"98", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"CGN", "name":"Kolonia", "seoName":"cologne-bonn", "countryName":"Niemcy"} , "departureDate":"2017-04-04T22:25:00", "arrivalDate":"2017-04-04T23:40:00", "price":{"value":12.99, "valueMainUnit":"12", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"CGN", "name":"Kolonia", "seoName":"cologne-bonn", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-04-05T20:45:00", "arrivalDate":"2017-04-05T22:00:00", "price":{"value":12.99, "valueMainUnit":"12", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":25.98, "valueMainUnit":"25", "valueFractionalUnit":"98", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"BFS", "name":"Belfast-International", "seoName":"belfast-international", "countryName":"Wielka Brytania"} , "departureDate":"2017-04-25T10:40:00", "arrivalDate":"2017-04-25T12:00:00", "price":{"value":9.98, "valueMainUnit":"9", "valueFractionalUnit":"98", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"BFS", "name":"Belfast-International", "seoName":"belfast-international", "countryName":"Wielka Brytania"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-05-02T06:55:00", "arrivalDate":"2017-05-02T10:15:00", "price":{"value":17.33, "valueMainUnit":"17", "valueFractionalUnit":"33", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":27.31, "valueMainUnit":"27", "valueFractionalUnit":"31", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"TSF", "name":"Wenecja-Treviso", "seoName":"wenecja-treviso", "countryName":"Włochy"} , "departureDate":"2017-05-30T14:45:00", "arrivalDate":"2017-05-30T16:20:00", "price":{"value":12.99, "valueMainUnit":"12", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"TSF", "name":"Wenecja-Treviso", "seoName":"wenecja-treviso", "countryName":"Włochy"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-06-07T16:35:00", "arrivalDate":"2017-06-07T18:10:00", "price":{"value":14.70, "valueMainUnit":"14", "valueFractionalUnit":"70", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":27.69, "valueMainUnit":"27", "valueFractionalUnit":"69", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"BUD", "name":"Budapeszt", "seoName":"budapeszt", "countryName":"Węgry"} , "departureDate":"2017-04-23T06:50:00", "arrivalDate":"2017-04-23T08:20:00", "price":{"value":12.99, "valueMainUnit":"12", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"BUD", "name":"Budapeszt", "seoName":"budapeszt", "countryName":"Węgry"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-05-09T09:10:00", "arrivalDate":"2017-05-09T10:40:00", "price":{"value":14.92, "valueMainUnit":"14", "valueFractionalUnit":"92", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":{"price":{"value":27.91, "valueMainUnit":"27", "valueFractionalUnit":"91", "currencyCode":"EUR", "currencySymbol":"€"} , "newRoute":false} } , {"outbound":{"departureAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "arrivalAirport":{"iataCode":"GLA", "name":"Glasgow", "seoName":"glasgow", "countryName":"Wielka Brytania"} , "departureDate":"2017-05-02T14:00:00", "arrivalDate":"2017-05-02T15:10:00", "price":{"value":12.99, "valueMainUnit":"12", "valueFractionalUnit":"99", "currencyCode":"EUR", "currencySymbol":"€"} } , "inbound":{"departureAirport":{"iataCode":"GLA", "name":"Glasgow", "seoName":"glasgow", "countryName":"Wielka Brytania"} , "arrivalAirport":{"iataCode":"SXF", "name":"Berlin-Schönefeld", "seoName":"berlin", "countryName":"Niemcy"} , "departureDate":"2017-05-03T14:35:00", "arrivalDate":"2017-05-03T17:45:00", "price":{"value":15.03, "valueMainUnit":"15", "valueFractionalUnit":"03", "currencyCode":"EUR", "currencySymbol":"€"} } , "summary":  {"price":    {"value":28.02, "valueMainUnit":"28", "valueFractionalUnit":"02", "currencyCode":"EUR", "currencySymbol":"€"} ,"newRoute":false}
+		 } 
+		 ],
+
+		    "arrivalAirportCategories":null, "size":16} 
