@@ -42,7 +42,7 @@ def airport_menu():
     '''Submenu for browsing and filtering airport dataframe'''
     
     df = create_airports_df()
-    print('\n' + str(len(df.index)) + 'airports were found.')
+    print('\n' + str(len(df.index)) + ' airports were found.')
 
     choice = None
     while choice != "0":

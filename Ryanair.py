@@ -2,16 +2,6 @@ import requests
 from time import localtime, strftime
 import copy
 from operator import itemgetter
-import os
-
-import sys
-sys.path.insert(0, 'C:\\1. Patryk\\Data science\\repos\\ryanair-flight-search')
-import Airports
-import Distance
-
-# from Gmail import send_mail
-
-os.chdir('C:\\1. Patryk\\Data science\\Python\\Kody\\Raporty')
 
 #########  PARAMETERS #########
 
@@ -248,45 +238,3 @@ def n_way(ways):
     print_results(ways, flights_clean)
     # txt_results(ways, flights_clean)
     # send_mail(toaddr="XYZ@gmail.com", subject="Wyszukiwarka lotow Ryanair", body="Patrz: załącznik", att_path="C:\\1. Patryk\\Data science\\Python\\Kody\\Raporty", att_filename="Ryanair.txt")
-
-def menu():
-    ''' Printing out the menu on the screen'''
-
-    choice = None
-    while choice != "0":
-        print \
-        ("""
-        --------------- MENU ---------------
-                
-        0 - Exit
-        1 - Insert/change flight data
-        2 - Show current flight data
-        3 - Find IATA code of your airport
-        4 - Check the nearest airports 
-        5 - Search one-way tickets!
-        6 - Search two-way tickets!
-        
-        """)
-        
-        choice = input("Choose: ") 
-        print()
-            
-        if choice == "0":
-            print("Bye bye!")  
-        elif choice == "1":
-            change_parameters()
-        elif choice == "2":
-            show_parameters()
-        elif choice == "3":
-            Airports.airport_menu()
-        elif choice == '4':
-            Distance.nearby_airports()
-        elif choice == "5":
-            n_way(ways=1)
-        elif choice == "6":
-            n_way(ways=2)
-        else:
-            print(" !!!!!!!!! Wrong option !!!!!!!!! ")
-
-
-menu()
