@@ -246,7 +246,7 @@ def n_way(ways):
 
     flights_clean = clean_results(ways)
     print_results(ways, flights_clean)
-    txt_results(ways, flights_clean)
+    # txt_results(ways, flights_clean)
     # send_mail(toaddr="XYZ@gmail.com", subject="Wyszukiwarka lotow Ryanair", body="Patrz: załącznik", att_path="C:\\1. Patryk\\Data science\\Python\\Kody\\Raporty", att_filename="Ryanair.txt")
 
 def menu():

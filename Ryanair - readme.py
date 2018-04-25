@@ -1,6 +1,7 @@
 """
 Pomysly na dalsze rozwiniecie programu:
 
+- pokaz siatke polaczen dla danej linii w danym interwale czasowym
 - klasy zamiast funkcji!
 - wyliczanie dystansu korzysta z tych samych danych, co airport df, ale kod jest powielony - fix this!
 - do wyszukiwania lotnisk wokol wybranego dodac tez opcje wyszukiwania lotnisk wokol danej lokalizacji (zadanej przez dlugosc/szerokosc geogr, a moze po nazwie -> wyszukanie jej pozycji w Google Maps?)

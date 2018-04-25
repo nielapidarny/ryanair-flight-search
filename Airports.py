@@ -42,17 +42,17 @@ def airport_menu():
     '''Submenu for browsing and filtering airport dataframe'''
     
     df = create_airports_df()
-    print(df)
-    print('\nThe list of all airports is long! It contains ' + str(len(df.index)) +  
-          ' locations and it may not fit on your screen.')
+    print('\n' + str(len(df.index)) + 'airports were found.')
 
     choice = None
     while choice != "0":
         reg = input('Type the (English, if exists) name of the airport you\'re looking for: ')
+        
         if df.index.str.contains(reg).any():
             print('\n')
             print(df[df.index.str.contains(reg)])
-            print('\nHave you found everything you were looking for?')
-            choice = input('If yes - type 0, if not - press Enter: ')
         else:
             print('No match!')
+
+        print('\nHave you found everything you were looking for?')
+        choice = input('If yes - type 0 and press Enter, if not - simply press Enter: ')
